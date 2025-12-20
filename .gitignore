@@ -1,0 +1,18 @@
+# --- Virtual Environments ---
+df_env/
+deepfake_env/
+deepfake_env-version/
+
+# --- Datasets-
+dataset/
+processed_dataset/
+person/
+backup/
+
+keras_used/
+
+# --- System & Cache Files ---
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

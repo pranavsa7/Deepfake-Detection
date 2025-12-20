@@ -1,0 +1,100 @@
+{
+  "datasets": {
+    "real_faces": {
+      "name": "Real Face Videos",
+      "path": "D:\\Deepfake_Project\\dataset\\real_face",
+      "total_files": 890,
+      "videos": 890,
+      "images": 0,
+      "video_files": [
+        "00000.mp4",
+        "00001.mp4",
+        "00002.mp4",
+        "00003.mp4",
+        "00004.mp4"
+      ],
+      "image_files": [],
+      "subfolders": [],
+      "file_extensions": {
+        ".mp4": 890
+      }
+    },
+    "fake_faces": {
+      "name": "Fake Face Videos",
+      "path": "D:\\Deepfake_Project\\dataset\\fake_face",
+      "total_files": 890,
+      "videos": 890,
+      "images": 0,
+      "video_files": [
+        "id0_id16_0000.mp4",
+        "id0_id16_0001.mp4",
+        "id0_id16_0002.mp4",
+        "id0_id16_0003.mp4",
+        "id0_id16_0004.mp4"
+      ],
+      "image_files": [],
+      "subfolders": [],
+      "file_extensions": {
+        ".mp4": 890
+      }
+    },
+    "real_scenes": {
+      "name": "Real Scene Images",
+      "path": "D:\\Deepfake_Project\\dataset\\real_scene",
+      "total_files": 8433,
+      "videos": 0,
+      "images": 8433,
+      "video_files": [],
+      "image_files": [
+        "00000.JPEG",
+        "00001.JPEG",
+        "00002.JPEG",
+        "00003.JPEG",
+        "00004.JPEG"
+      ],
+      "subfolders": [
+        "airplane",
+        "car",
+        "cat",
+        "dog",
+        "flower",
+        "fruit",
+        "motorbike"
+      ],
+      "file_extensions": {
+        ".jpeg": 2520,
+        ".jpg": 5913
+      }
+    },
+    "fake_scenes": {
+      "name": "Fake Scene Images (COCO Fake Subset)",
+      "path": "D:\\Deepfake_Project\\dataset\\fake_scene",
+      "total_files": 154579,
+      "videos": 0,
+      "images": 154579,
+      "video_files": [],
+      "image_files": [
+        "00000.png",
+        "00001.png",
+        "00002.png",
+        "00003.png",
+        "00004.png"
+      ],
+      "subfolders": [
+        "test",
+        "train"
+      ],
+      "file_extensions": {
+        ".png": 2500,
+        ".jpg": 152079
+      }
+    }
+  },
+  "summary": {
+    "total_real_faces": 890,
+    "total_fake_faces": 890,
+    "total_real_scenes": 8433,
+    "total_fake_scenes": 154579,
+    "estimated_samples": 171912
+  }
+}
